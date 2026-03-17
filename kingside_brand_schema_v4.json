@@ -1,0 +1,763 @@
+{
+  "schema_metadata": {
+    "name": "Kingside Unified Brand System",
+    "version": "4.0.0",
+    "last_updated": "2026-03-16",
+    "changelog": "v4.0: Consolidated brand guidelines, brand-system.json, and core beliefs into single schema. Added Voice Character (Layers 1-2), Audience Relationship (Layer 3), Style Rules (Layer 4), Content-Type Modifiers (Layer 5), and Brand POV (Layer 6). Removed redundant personality duplication, transpilation logic, and engineering guardrails. Platform mechanics moved out of brand schema."
+  },
+
+  "brand_identity": {
+    "positioning": {
+      "tagline": "AI Orchestration Agency",
+      "role": "Fractional Chief AI Officer for SMBs",
+      "target_revenue": "$2M-$50M annual revenue",
+      "target_verticals": [
+        "Professional services",
+        "Private practices",
+        "Home maintenance and construction",
+        "Retail and local commerce"
+      ],
+      "core_pov": "Most agencies sell AI projects. We run a process. The difference between a one-time build and a lasting operational advantage is a framework, not a prompt.",
+      "differentiator": "System orchestration and managed services over commoditized implementation. We don't just build it and walk away. We build it, train on it, measure it, and make it better every month.",
+      "competitive_stance": "The moat is not the framework itself. Anyone can draw boxes and arrows. The moat is the pattern library built over time. Every engagement teaches what works in specific verticals. After enough clients, the playbook of 'when we see X, we deploy Y' becomes compounding intellectual property no competitor can replicate without doing the same reps."
+    },
+    "core_thesis": "The gap between enterprise AI capability and what growing businesses have access to is the defining competitive disadvantage of the next decade. Closing it is not a technology problem. It's an orchestration problem. Anyone can buy the tools. The difference is having a repeatable framework, vertical pattern recognition, and someone who stays to make sure it actually works.",
+    "core_beliefs": {
+      "ai_transformation_is_about_people": {
+        "belief": "AI Transformation is about people, not technology.",
+        "supporting_points": [
+          "It's process change in disguise.",
+          "Successful implementation only happens after process mastery and alignment.",
+          "There is a scourge of sales tactics and snake oil AI consultants who claim you're only one template away from a business that's completely on autopilot. They love the gratification of the easy up-front sale, but have none of the appetite needed to actually be a partner to implement that solution and ensure it's the right fit for your organization and adopted."
+        ]
+      },
+      "adoption_is_the_most_important_kpi": {
+        "belief": "Adoption is the most important KPI.",
+        "supporting_points": [
+          "You can't even begin to assess the impact of a digital transformation unless orgs adopt it and use it in their flow of work.",
+          "Digital transformations fail because they're often top-down mandates. Successful change is almost always employee-led.",
+          "The Wisdom Of Crowds states that diverse opinions, independence, and decentralization make collective decisions more accurate and innovative."
+        ]
+      },
+      "ai_should_remove_work": {
+        "belief": "AI should remove work, not add it.",
+        "supporting_points": [
+          "Some AI solutions make the mistake of adding a layer of maintenance or process that ineffectively complicates a process.",
+          "AI solutions are more effective when they remove steps in a process vs. augment how they're completed. People will continue to perform tasks in a counterproductive manner because it's habit rather than learn something new.",
+          "Wow moments and excitement around adoption come when AI solutions create high-speed rail systems that remove time-consuming and repetitive tasks rather than speed them up.",
+          "The goal is not more software. It's less busywork and reclaimed attention. You measure success by what human behavior disappears, not by what the system does."
+        ]
+      },
+      "value_has_to_be_felt": {
+        "belief": "Value has to be felt, not explained.",
+        "supporting_points": [
+          "If the value needs explaining, adoption will be slow.",
+          "AI solutions must create immediate, undeniable relief — the kind where people would fight to keep it rather than needing a deck to understand why it matters.",
+          "Organizations must be clear on the quantitative outcomes as well as what the value of their time back is and where it could be invested to advance the business."
+        ]
+      },
+      "not_everything_needs_ai": {
+        "belief": "Not everything needs AI.",
+        "supporting_points": [
+          "FOMO content and snake oil peddlers are ruining all the fun in AI transformation. They claim you're only one template away from a business that's completely on autopilot. The truth is that AI transformation is much less glamorous and much more difficult to do effectively, and not every process needs to be automated or needs to not be human."
+        ]
+      },
+      "ai_gives_human_potential_room_to_breathe": {
+        "belief": "AI doesn't replace human potential. It finally gives it room to breathe.",
+        "supporting_points": [
+          "Talented people are spending the majority of their time working beneath their potential — repetitive tasks, administrative drag, low-value coordination. AI isn't here to take over. It's here to compress or eliminate that layer so that the uniquely human stuff — judgment, creativity, relationships, courage, vision — finally gets the time and space it deserves."
+        ]
+      }
+    },
+    "brand_pov": {
+      "what_we_say_that_others_dont": [
+        "AI transformation is process change in disguise. The technology is the easy part. The hard part is getting humans to change how they work.",
+        "Not everything needs AI. Some processes should stay human. Some are fine as-is.",
+        "Most AI implementations fail because nobody trained the team. Rally is the phase everyone skips.",
+        "Adoption is the most important KPI. Not accuracy, not speed, not cost savings on paper. If people don't use it, none of the other metrics matter."
+      ],
+      "conventional_wisdom_we_reject": [
+        "'AI will replace your employees.' AI doesn't replace human potential. It finally gives it room to breathe.",
+        "'You need a big budget and a dev team.' Enterprise-grade AI infrastructure is accessible at SMB scale with zero internal dev team.",
+        "'Move fast, automate everything.' Build in layers. Foundation first, intelligence second. The goal is less busywork, not more software.",
+        "'Set it and forget it.' AI systems are living systems that get better with attention and worse without it."
+      ],
+      "what_we_stand_for": [
+        "Value has to be felt, not explained.",
+        "AI should remove work, not add it.",
+        "Ship early, beat conservative estimates, build trust through results.",
+        "The best technical solution fails if it lands on a team that wasn't consulted.",
+        "Generous with knowledge. We don't gatekeep expertise."
+      ],
+      "what_we_stand_against": [
+        "Snake oil consultants selling 'one template away from autopilot.'",
+        "Top-down mandates disguised as digital transformation.",
+        "Hype-driven FOMO content that makes AI transformation sound glamorous instead of difficult.",
+        "Build-and-walk-away implementation.",
+        "Vanity metrics and aggressive projections designed to close deals instead of serve clients."
+      ]
+    }
+  },
+
+  "voice": {
+    "character": {
+      "archetype": {
+        "name": "The Sage",
+        "description": "Motivated by the desire to understand the world and share that knowledge. The Sage builds trust through competence, not charisma.",
+        "comparable_brands": ["Google", "BBC", "McKinsey", "The Economist"],
+        "traits": [
+          "Wise without being condescending. We have the expertise. We don't need to prove it every sentence.",
+          "Guides without prescribing. We show you the options and the tradeoffs. You make the call.",
+          "Shares knowledge freely. We don't gatekeep. Generous with insight is how we build trust.",
+          "Values clarity over cleverness. A clear sentence beats a clever one every time.",
+          "Earns trust through competence. Not charisma, not hype — just consistent, rigorous execution."
+        ]
+      },
+      "sounds_like": "A trusted partner who's done the work, is enthusiastic about helping others discover the wow moments that AI has to offer, and is emotionally invested in their company's success.",
+      "doesnt_sound_like": "A vendor pitching cookie-cutter solutions, projects clients don't need, or a consultant hiding behind jargon.",
+      "dinner_table_test": "We'd spend as much time as possible asking about the client's business, showing interest in the value their products and services add, asking nuanced questions that show we understand their business outcomes. We'd answer questions given to us but would avoid trying to initiate a sales conversation. If we have to talk about ourselves, we would find ways to position it as a value add for the client's business vs. a hard sell. We believe that if we find ways to showcase our expertise without pressuring prospects, there's enough interest in AI that sales conversations will find us.",
+      "personality_traits": ["Excited", "Humble", "Friendly", "Listening", "Attentive", "Non-hype", "Helpful", "Conversational", "Colloquial"],
+      "energy_level": "6-7 out of 10. Engaging and enthusiastic. Always human and authentic. Only super passionate or over-the-top when we must be.",
+      "humor_tolerance": "Genuine part of the voice. Not forced, not a brand pillar, but natural and welcome."
+    },
+    "descriptors": {
+      "at_our_best": ["Colloquial", "Excited", "Helpful", "Attentive"],
+      "never_sound_like": ["Condescending", "Cookie-cutter", "Impersonal"],
+      "formality_score": "6 out of 10. Trusted advisor at the dinner table, not a consultant presenting a deck."
+    },
+    "dimensions": [
+      { "left": "Funny", "right": "Serious", "position": 72, "note": "Earnest and direct. Not joyless, but we don't chase laughs." },
+      { "left": "Casual", "right": "Formal", "position": 20, "note": "Plain language, zero jargon. We talk like a smart friend." },
+      { "left": "Irreverent", "right": "Respectful", "position": 85, "note": "Deep respect for your time, your intelligence, and your situation." },
+      { "left": "Enthusiastic", "right": "Matter-of-fact", "position": 60, "note": "Genuinely excited about what's possible. We just don't hype it." }
+    ],
+    "voice_examples": [
+      {
+        "context": "Email subject line",
+        "right": "Your weekly automation report is ready.",
+        "wrong": "HUGE update — your AI empire is CRUSHING IT this week!!"
+      },
+      {
+        "context": "Feature announcement",
+        "right": "We added calendar sync. Your agents now book meetings automatically.",
+        "wrong": "GAME-CHANGING feature drop — the future of scheduling has arrived."
+      },
+      {
+        "context": "Error message",
+        "right": "The sync didn't go through. Check your API key in Settings > Integrations.",
+        "wrong": "Oops! Something went kinda wonky on our end. My bad!"
+      }
+    ],
+    "pov_default": "No default. We filter this decision exclusively through what promotes visibility on that platform and what communicates value and expertise most effectively.",
+    "sentence_length": "Deliberately varied with an emphasis on short and punchy.",
+    "vocabulary_level": "Distinguished technical acumen and domain expertise articulated in plain English. 8th-grade reading level."
+  },
+
+  "audience_relationship": {
+    "how_we_see_the_reader": "A partner. A fellow passenger on the exciting innovations in AI.",
+    "what_they_should_feel": "Empowered and validated in their opinions on AI. Inspired and motivated to try, experiment, and play with different ways to streamline their business ops.",
+    "what_we_assume_they_know": "Our default is to introduce or recommend solutions through the lens of how they're solving client problems. We explain AI concepts as non-technically as possible so that customers can understand without us having to presume or establish a prerequisite level of technical acumen. We still check for understanding. Rather than say something potentially condescending like 'Does that make sense?' we try to create an environment that welcomes all questions: 'We totally get that mileage on this stuff varies with different folks. Is there anything I can share more about?'"
+  },
+
+  "style_rules": {
+    "always": [
+      "Ground every claim in a specific outcome or example. No floating assertions.",
+      "Lead with the point, not the setup. Front-load value in every section, every paragraph, every sentence.",
+      "Write to one person. Use 'you' and 'your' to address the reader directly. Write to a person, not at an audience.",
+      "Make the value felt, not explained. If you have to explain why something matters, rewrite it until you don't.",
+      "Name what you're against. The brand has real enemies. Your best content acknowledges them directly."
+    ],
+    "never": {
+      "forbidden_words": [
+        "revolutionary",
+        "disruptive",
+        "disruption",
+        "synergy",
+        "delve",
+        "delve into",
+        "dive into",
+        "deep dive",
+        "tapestry",
+        "landscape",
+        "leverage (as verb)",
+        "unlock",
+        "unleash",
+        "elevate (as generic verb)",
+        "empower",
+        "seamless",
+        "robust",
+        "cutting-edge",
+        "game-changer",
+        "game-changing",
+        "revolutionize",
+        "harness the power of",
+        "pivotal",
+        "intricate",
+        "illuminate",
+        "unveil",
+        "elucidate",
+        "groundbreaking",
+        "stark",
+        "testament",
+        "remarkable",
+        "it remains to be seen",
+        "glimpse into",
+        "skyrocketing",
+        "moreover",
+        "furthermore",
+        "hence",
+        "ever-evolving",
+        "realm",
+        "embark",
+        "enlightening",
+        "esteemed",
+        "shed light",
+        "craft/crafting (as metaphor)",
+        "discover",
+        "abyss",
+        "not alone",
+        "imagine",
+        "in today's [fast-paced/ever-evolving/digital] world",
+        "it's important to note that",
+        "let's explore",
+        "navigating the [noun]",
+        "opened up",
+        "boost",
+        "vibe coding (used approvingly)",
+        "set it and forget it",
+        "that said",
+        "with that in mind",
+        "at the end of the day",
+        "when it comes to",
+        "it's worth noting",
+        "interestingly",
+        "great question",
+        "absolutely (as affirmation)",
+        "I'd be happy to",
+        "let me break this down",
+        "here's the thing",
+        "think of it like",
+        "truly",
+        "incredibly",
+        "significantly",
+        "ensure (where 'make sure' works)",
+        "utilize (where 'use' works)",
+        "foster",
+        "streamline",
+        "spearhead",
+        "bolster",
+        "underscore",
+        "resonate",
+        "facilitate",
+        "curate (outside museum/gallery context)",
+        "ecosystem",
+        "holistic",
+        "actionable insights",
+        "pain points",
+        "north star",
+        "thought leader / thought leadership",
+        "value proposition (in client-facing copy)",
+        "move the needle",
+        "low-hanging fruit",
+        "the [noun] space",
+        "in conclusion",
+        "to summarize",
+        "without further ado",
+        "double down",
+        "lean into",
+        "at scale",
+        "end-to-end",
+        "the reality is",
+        "[Noun]: A Comprehensive Guide (title pattern)",
+        "whether you're [X] or [Y], [product] has you covered"
+      ],
+      "formatting_bans": [
+        "Never use em dashes in body copy. Permitted sparingly in headlines and subject lines when no cleaner alternative exists.",
+        "Never use semicolons. Period. New sentence.",
+        "Never use hashtags, asterisks for emphasis, or markdown formatting in output unless the delivery platform requires it.",
+        "Never bold every other phrase for emphasis. If everything is emphasized, nothing is.",
+        "Never produce a wall of bullet points when prose would be more persuasive. Exception: social platforms where list format is standard.",
+        "Never use more than one exclamation mark per piece."
+      ],
+      "structural_anti_patterns": [
+        "Never open with a self-answered question. ('Want to boost your sales? Here's how.')",
+        "Never use 'Whether you're a [X] or a [Y]' as an audience catch-all.",
+        "Never use three-part listicle headings as a crutch. ('Save Time. Save Money. Save Headaches.')",
+        "Never start sentences with throat-clearing: 'In conclusion,' 'In closing,' 'It's worth noting,' 'Interestingly.'",
+        "Never end with a generic CTA. ('Ready to get started? Contact us today!')",
+        "Never use bullet points as a substitute for an argument."
+      ],
+      "honesty_and_credibility": [
+        "Never fabricate statistics, studies, or quotes. Flag claims that need sourcing for human review via a notes field, never inline.",
+        "Never make superlative claims ('the best,' 'the only,' '#1') without sourced evidence.",
+        "Never attribute thoughts or emotions to the reader. ('You're probably thinking...')",
+        "Never use weasel phrases ('many experts agree,' 'studies show') without specifics.",
+        "Never be sycophantic or over-promise. Confidence is fine. Hype erodes trust."
+      ],
+      "tone_discipline": [
+        "Never condescend. Assume the reader is smart and busy.",
+        "Never hedge so much the writing loses conviction. Take a position.",
+        "Never mirror corporate jargon back thinking it sounds on-brand. Clean it up.",
+        "Never include meta-commentary, warnings, or notes about the writing in final deliverables."
+      ]
+    },
+    "format_defaults": {
+      "case": "Sentence case. Headline case reads as corporate. Exception: proper nouns, SCORE, WAT.",
+      "oxford_comma": "Yes. Always.",
+      "em_dashes": "Banned in body copy. Sparingly permitted in headlines when no cleaner alternative exists.",
+      "parentheticals": "Use sparingly. If you catch yourself writing one, ask if it's a separate sentence or can be cut.",
+      "semicolons": "Banned. Period. New sentence.",
+      "numbers": "Numerals when the number IS the point ('14+ hours recovered'). Spell out when incidental ('one more deal per month').",
+      "bold": "Almost never. Reserve for true structural emphasis in long-form only.",
+      "exclamation_marks": "Maximum one per piece.",
+      "cta_approach": "Softer by default ('Worth a conversation'). Direct CTAs ('Let's talk') only when the reader has already shown intent: bottom of funnel, proposals, post-demo follow-ups.",
+      "cadence": {
+        "short_form": {
+          "rule": "1-2-1 sentence cadence: one sentence paragraph, two sentence paragraph, one sentence paragraph.",
+          "applies_to": ["social posts", "ads", "email subject lines", "short marketing copy"]
+        },
+        "long_form": {
+          "rule": "Vary paragraph length naturally. Keep paragraphs under 4 sentences. Lead every paragraph with its strongest sentence.",
+          "applies_to": ["case studies", "proposals", "blog posts", "whitepapers", "documentation", "SCORE Sheets"]
+        }
+      }
+    },
+    "word_level_discipline": [
+      "Choose concrete nouns and strong verbs over adjective stacking.",
+      "Cut unnecessary adjectives and adverbs. If removing the word doesn't change the meaning, remove it.",
+      "Prefer plain language: 'use' not 'utilize,' 'help' not 'facilitate,' 'start' not 'commence.'",
+      "Use constructions like '...not just this, but also this' to add nuance and forward motion.",
+      "Say it once, say it well, move on."
+    ]
+  },
+
+  "content_type_modifiers": {
+    "linkedin": {
+      "voice_shift": "Most authoritative version of the voice. This is where the POV lives loudest. Take positions, push back on conventional wisdom, name the patterns you see. Personal experience and client stories (anonymized) carry more weight than theory.",
+      "mechanics": ["Hook in first 2 lines", "Paragraphs under 2 lines", "No links in body", "3-5 hashtags"]
+    },
+    "email": {
+      "voice_shift": "Most direct. Shortest sentences. The dinner-table voice at its most efficient. One idea per email. Subject lines are plain and specific, never clickbait. CTA is soft unless bottom-of-funnel."
+    },
+    "website": {
+      "voice_shift": "Most structured and benefit-forward. SCORE framework and proof points do their work here. Still colloquial, but with more intentional hierarchy. Every section answers 'what does this mean for my business?' before the reader has to ask. Conservative with claims."
+    },
+    "proposals_and_score_sheets": {
+      "voice_shift": "Most precise. Business language only, no technical jargon. Every number traces to discovery. Confident and warm but personality dials back. Conservative projections govern everything."
+    },
+    "social_short_form": {
+      "voice_shift": "Most energetic version of the voice. Push closer to 7-8 on the energy scale. Punchier vocabulary. Still grounded in real outcomes. Humor tolerance is highest here. Playful is fine as long as the substance underneath is real.",
+      "mechanics": {
+        "tiktok": ["Rapid cuts", "Text overlays", "Energetic tone"],
+        "instagram": ["7-15s vertical", "3s hook", "Trending audio", "Social CTAs"],
+        "facebook": ["1-3 paragraphs", "Benefit-driven", "Urgent CTA", "4:5 video"]
+      }
+    },
+    "x_threads_bluesky": {
+      "voice_shift": "Most opinionated and conversational. Intellectual honesty shows up strongest here. You can be blunt. You can call things out. Engagement comes from saying the thing other people are thinking but not posting.",
+      "mechanics": {
+        "x_twitter": {
+          "rules": ["0-2 hashtags", "Urgent tone"],
+          "formula": ["Bold Claim", "Tension", "Payoff"]
+        },
+        "threads_bluesky": ["Relatable story", "Intellectual honesty", "Engagement prompt"]
+      }
+    },
+    "youtube": {
+      "mechanics": ["Problem-Benefit-Negative intro", "Timestamped chapters"]
+    }
+  },
+
+  "lexicon": {
+    "preferred_phrases": [
+      "Busy work should run without you.",
+      "First moves.",
+      "Concrete wins.",
+      "Follow the money, follow the time, follow the pain.",
+      "Build in layers. Foundation first, intelligence second.",
+      "Conservative estimates you beat build more trust than aggressive ones you miss.",
+      "AI systems aren't set-and-forget. They're living systems that get better with attention and worse without it.",
+      "The best technical solution fails if it lands on a team that wasn't consulted.",
+      "Ship for feedback. A working v1 in week two teaches more than a perfect plan in month two."
+    ],
+    "framework_terms": {
+      "SCORE": "Study, Configure, Orchestrate, Rally, Elevate. The five-pillar framework for AI implementation.",
+      "SCORE_Sheet": "The signature deliverable produced during Study and Configure. Named for the chess term. A score sheet records every move in the game. Ours records every move in the client's AI strategy.",
+      "WAT": "Workflow, Agent, Tool. The solution taxonomy used to classify every opportunity.",
+      "three_lenses": "Follow the Money, Follow the Time, Follow the Pain. The diagnostic lenses used during Study.",
+      "Elevate": "Permitted as a SCORE pillar name. Still forbidden as a generic marketing verb."
+    }
+  },
+
+  "brand_story": {
+    "act_1_challenge": "Most growing businesses are running on borrowed time. Your team is chasing follow-ups, copying data between tools, formatting reports, routing tickets — work that was always meant to be automated. The problem isn't effort. You're working hard. The problem is infrastructure. Enterprise companies have entire operations teams and custom AI systems handling all of that. You don't. And that gap compounds every quarter.",
+    "act_2_transformation": "Kingside changes that equation. We help you design and deploy a digital workforce — AI agents that handle the repetitive, rule-based work so your people can focus on the decisions, relationships, and creative thinking that only humans can do. Not theory. Not a six-month roadmap. We build systems that work by week two. You see the difference before the invoice is paid.",
+    "act_3_resolution": "A world where every growing business has access to the same AI infrastructure that Fortune 500 companies take for granted. Where competing on quality and execution doesn't require a 50-person ops team. Where your people wake up and get to do the work they were actually hired to do. That's the world Kingside is building — one digital workforce at a time."
+  },
+
+  "messaging": {
+    "primary_tagline": "AI Built to Run Your Business. So You Can Grow It.",
+    "backup_taglines": [
+      { "line": "You Build The Dream. We Handle The Grind.", "note": "Emotional contrast. Appeals to the founder who knows what it feels like to be in the weeds." },
+      { "line": "The Bottleneck Stops Here.", "note": "Punchy and direct. Strong for ad headlines and cold outreach subject lines." },
+      { "line": "Put Your Busywork In Check.", "note": "Chess wordplay. Confident, slightly playful. Good for brand-aware audiences." },
+      { "line": "Busywork Should Run Without You.", "note": "Operationally-minded. Resonates with COOs and ops-focused founders." },
+      { "line": "AI That Handles Today. So You Can Own Tomorrow.", "note": "Future-focused. Strong for nurture sequences and long-form content." },
+      { "line": "AI Built for Momentum. Not Just Motion.", "note": "Differentiates from busy AI. Signals strategic output vs. noise." }
+    ],
+    "value_proposition": "Kingside designs and deploys AI agents for growing businesses — handling the repetitive work so your team can focus on the work only humans can do.",
+    "key_messages": [
+      "We build AI systems that actually work for your business — not the other way around.",
+      "Most businesses are leaving serious time and money on the table. We help you collect it.",
+      "Enterprise AI infrastructure, sized for a growing business.",
+      "Your digital workforce doesn't call in sick, lose files, or forget to follow up."
+    ],
+    "proof_points": [
+      { "stat": "14+ hrs", "label": "Recovered per employee, per week, on average" },
+      { "stat": "Days", "label": "Not months. Time to first working system" },
+      { "stat": "Zero", "label": "Internal dev team required. We handle the build" },
+      { "stat": "100%", "label": "Non-technical founders. Our core client profile" }
+    ]
+  },
+
+  "score_framework": {
+    "description": "SCORE is Kingside's proprietary framework for discovering, implementing, and managing AI solutions for SMBs. It replaces guesswork with a repeatable process that ties every recommendation to real business outcomes.",
+    "pillars": {
+      "S_study": {
+        "name": "Study",
+        "subtitle": "Discovery, research, and diagnostic assessment",
+        "purpose": "Understand the business by following the money, time, and pain. Map every workflow, quantify every bottleneck, and surface opportunities the client didn't know they had.",
+        "three_lenses": {
+          "money": {
+            "label": "Follow the Money",
+            "focus": "Map how revenue enters the business and what it costs to earn. Trace a customer from first contact to payment to repeat business. Identify leakage, missed opportunities, and unnecessary cost.",
+            "key_questions": [
+              "Walk me through how a dollar enters your business. What does it cost to earn it?",
+              "Where do you lose deals? Where do customers drop off?",
+              "If you could eliminate one cost tomorrow, what would it be?",
+              "What revenue are you leaving on the table because you don't have capacity?"
+            ]
+          },
+          "time": {
+            "label": "Follow the Time",
+            "focus": "Map where hours actually go. Not job descriptions. Literal hours. Identify repetition, context switching, manual data entry, and tasks a system should handle.",
+            "key_questions": [
+              "If I sat next to each team member for a week, what would I see them doing?",
+              "What tasks does your team do every day that feel like they should be faster?",
+              "Where is someone copying information from one place to another?",
+              "What would your team do with 10 extra hours per week?"
+            ]
+          },
+          "pain": {
+            "label": "Follow the Pain",
+            "focus": "Uncover the human layer. What frustrates the team, what causes burnout, what keeps the owner up at night. Reveals adoption risks and where the first visible win needs to land.",
+            "key_questions": [
+              "What's the thing that keeps you up at night about your business?",
+              "Where do things fall through the cracks? What gets dropped?",
+              "What have you tried to fix that didn't work? What are you afraid of breaking?",
+              "If you could snap your fingers and fix one thing, what would it be?"
+            ]
+          }
+        },
+        "pre_work_questionnaire": {
+          "description": "Sent to the client before the discovery session. Should take 15 minutes max. Primes the client to think critically about operations before we arrive.",
+          "sections": [
+            "About your business: what you do, team size, revenue, current tech stack.",
+            "About your money: top revenue streams, biggest costs, one cost you'd kill tomorrow.",
+            "About your time: tasks that eat the most hours for you and for your team.",
+            "About your pain: biggest frustrations, what falls through cracks, what you've tried.",
+            "The wild card: if you could snap your fingers and fix one thing, what would it be?"
+          ]
+        },
+        "session_structure": {
+          "duration": "90-120 minutes",
+          "flow": [
+            "First 30 min: Follow the Money. Map revenue from first contact to payment.",
+            "Next 30-40 min: Follow the Time. Map literal hours across every team member.",
+            "Next 20-30 min: Follow the Pain. Uncover frustrations, adoption risks, team morale.",
+            "Final 10-15 min: Playback. Reflect back what you heard. Confirm or correct."
+          ]
+        },
+        "outputs": [
+          "List of opportunities categorized by lens (Money, Time, Pain)",
+          "WAT classification for each opportunity",
+          "Quantified impact estimates using impact formulas",
+          "Priority Score for sequencing"
+        ]
+      },
+      "C_configure": {
+        "name": "Configure",
+        "subtitle": "Solution design and architecture",
+        "purpose": "Translate opportunities into a concrete plan. Evaluate build vs. buy, design the technical architecture, present options to the client, and get buy-in on priorities and investment.",
+        "two_tracks": {
+          "client_facing": {
+            "focus": "The what and why. Translate technical thinking into business language. Present options, tradeoffs, and recommendations.",
+            "deliverables": [
+              "The SCORE Sheet",
+              "Prioritized roadmap with timelines",
+              "Investment and ROI summary",
+              "Service tier recommendation"
+            ]
+          },
+          "internal_planning": {
+            "focus": "The how and when. Stack decisions, dependency mapping, integration design, risk assessment.",
+            "deliverables": [
+              "Technical solution blueprints",
+              "Dependency and sequencing map",
+              "Resource and build-time estimates",
+              "Risk register with mitigations"
+            ]
+          }
+        },
+        "outputs": [
+          "Signed SCORE Sheet with agreed roadmap",
+          "Internal technical blueprint",
+          "Defined success metrics for every initiative"
+        ]
+      },
+      "O_orchestrate": {
+        "name": "Orchestrate",
+        "subtitle": "Implementation and integration",
+        "purpose": "Build, deploy, and connect the solutions. Coordinate across systems, manage dependencies, and bring everything online in the right sequence.",
+        "principles": [
+          "Build in layers. Foundation first, intelligence second. Get data flowing before layering on agents.",
+          "Ship for feedback. Deploy early, iterate fast. A working v1 in week two teaches more than a perfect plan in month two.",
+          "Measure from day one. Every solution ships with monitoring. If you can't measure it, you can't prove it."
+        ],
+        "phase_structure": {
+          "phase_1": {
+            "label": "Foundation",
+            "timeline": "Weeks 1-4",
+            "focus": "Quick wins. Highest-impact, lowest-complexity solutions. Establishes trust and creates the data infrastructure later phases build on."
+          },
+          "phase_2": {
+            "label": "Operations",
+            "timeline": "Weeks 5-10",
+            "focus": "Operational upgrades. More sophisticated solutions requiring Phase 1 foundation. AI agents, multi-system integrations, advanced automations."
+          },
+          "phase_3": {
+            "label": "Scale",
+            "timeline": "Months 4-6",
+            "focus": "Strategic advantage. Predictive systems, advanced analytics, compounding gains from earlier phases."
+          }
+        }
+      },
+      "R_rally": {
+        "name": "Rally",
+        "subtitle": "Enablement, training, and adoption",
+        "purpose": "Prepare the team to succeed. Train users, document processes, run practice scenarios, and ensure solutions get used, not just built.",
+        "components": [
+          "Training: Hands-on sessions with real scenarios from daily work. Not slide decks.",
+          "Documentation: Simple visual guides that live where the team already works. Quick-reference cards, short walkthroughs.",
+          "Dry runs: Practice scenarios using real data before go-live. Surface edge cases and build confidence.",
+          "Support window: Dedicated support period after launch. Gradually reduce as confidence builds.",
+          "Feedback loop: Structured check-ins during the first 30 days. Every workaround is a signal something needs adjustment."
+        ],
+        "core_belief": "Technology only creates value when people use it. Rally is the phase most AI implementations skip entirely. It's why our implementations stick."
+      },
+      "E_elevate": {
+        "name": "Elevate",
+        "subtitle": "Measurement, iteration, and growth",
+        "purpose": "Track outcomes against success metrics. Identify what's working, optimize what isn't, and expand into the next phase of the roadmap.",
+        "cycle": [
+          "Measure: Track every solution against metrics defined in Configure. Report monthly. No vanity metrics.",
+          "Iterate: Use performance data and team feedback to refine continuously. Adjust thresholds, retrain agents, streamline workflows.",
+          "Expand: As earlier phases prove out, advance the roadmap. Each phase compounds on the data and confidence from the previous one."
+        ],
+        "retention_logic": "Elevate is the answer to 'why do we need a monthly retainer?' AI systems aren't set-and-forget. They get better with attention and worse without it."
+      }
+    }
+  },
+
+  "wat_taxonomy": {
+    "description": "The solution classification system used during Study to categorize every opportunity before any technical decisions are made.",
+    "types": {
+      "workflow": {
+        "label": "Workflow",
+        "definition": "Automated multi-step process",
+        "when_to_use": "The task follows a predictable sequence. Trigger, steps, outcome. Human judgment is minimal.",
+        "examples": ["Lead follow-up sequences", "Invoice processing", "Data sync between systems", "Lease renewal automation", "Vendor coordination"]
+      },
+      "agent": {
+        "label": "Agent",
+        "definition": "AI-powered decision maker",
+        "when_to_use": "The task requires context, judgment, or conversation. The system needs to interpret, classify, route, or respond.",
+        "examples": ["Customer support triage", "Maintenance request classification", "Tenant communication", "Document analysis", "Screening and qualification"]
+      },
+      "tool": {
+        "label": "Tool",
+        "definition": "System, dashboard, or utility",
+        "when_to_use": "The team needs better visibility or capability, but the underlying process is sound.",
+        "examples": ["Reporting dashboards", "Search and retrieval tools", "Analytics platforms", "Predictive alert systems"]
+      }
+    },
+    "classification_rule": "Most agencies reach for agents when a workflow would do, or build tools when the real issue is a broken process. Classify first, then build."
+  },
+
+  "impact_methodology": {
+    "description": "Standardized formulas for predicting the business impact of each AI opportunity. Used during Study and Configure to produce defensible, conservative estimates.",
+    "core_principle": "All estimates should be conservative. A projection you beat builds trust. A projection you miss erodes it. When in doubt, use the lower bound.",
+    "formulas": {
+      "time_savings": {
+        "label": "Time Impact",
+        "use_when": "The primary opportunity is recovering hours spent on manual, repetitive, or inefficient work.",
+        "formula": "Hours/Week x Automation Rate x Hourly Cost x 52",
+        "variables": {
+          "hours_per_week": "Current hours spent on the task.",
+          "automation_rate": "Percentage of the task that can be automated. Use 0.60-0.85 for workflows, 0.40-0.70 for agent-assisted tasks.",
+          "hourly_cost": "Blended cost of the person (salary + benefits + overhead, divided by annual hours)."
+        }
+      },
+      "revenue_recovery": {
+        "label": "Revenue Impact",
+        "use_when": "The primary opportunity is capturing revenue currently lost or left on the table.",
+        "formula": "Lost Opportunities x Conversion Lift x Avg Value",
+        "variables": {
+          "lost_opportunities": "Number of leads, renewals, upsells, or transactions currently falling through.",
+          "conversion_lift": "Expected improvement in conversion rate. Use 0.10-0.25 for most scenarios.",
+          "avg_value": "Average revenue per converted opportunity."
+        }
+      },
+      "cost_avoidance": {
+        "label": "Cost Avoidance",
+        "use_when": "The primary opportunity is preventing or reducing costs from errors, emergencies, or inefficiency.",
+        "formula": "Incident Frequency x Avg Cost/Incident x Prevention Rate",
+        "variables": {
+          "incident_frequency": "How often the costly event occurs per year.",
+          "avg_cost_per_incident": "Average cost including direct spend, labor, and downstream impact.",
+          "prevention_rate": "Percentage the solution can prevent. Use 0.25-0.50 for predictive systems, 0.50-0.80 for process automation."
+        }
+      }
+    },
+    "priority_score": {
+      "label": "Composite Priority Score",
+      "purpose": "Used for roadmap sequencing. Each opportunity receives a score that accounts for quantitative impact and qualitative readiness.",
+      "formula": "(Impact x 0.4) + (Feasibility x 0.3) + (Readiness x 0.3)",
+      "scale": "Each factor scored 1-5. Higher composite score = higher priority.",
+      "dimensions": {
+        "impact": { "5": "$40K+ annual value", "4": "$25K-$40K", "3": "$10K-$25K", "2": "$5K-$10K", "1": "Under $5K" },
+        "feasibility": { "5": "Off-the-shelf tool, minimal config", "4": "Standard workflow, light customization", "3": "Custom build, moderate effort", "2": "Complex integration, dependencies", "1": "R&D required, high uncertainty" },
+        "readiness": { "5": "No behavior change, team wants it", "4": "Minor adjustment, team is open", "3": "Some training required, neutral team", "2": "Significant process change needed", "1": "Major overhaul, team resistance likely" }
+      },
+      "override_note": "The Priority Score is a decision-support tool, not a decision-maker. Override it when qualitative factors (client emotion, team morale, strategic positioning) warrant a different sequence."
+    },
+    "reference_tables": {
+      "automation_rates_by_task": {
+        "data_entry_transfer": { "low": 0.75, "high": 0.95 },
+        "email_message_triage": { "low": 0.60, "high": 0.85 },
+        "document_generation": { "low": 0.70, "high": 0.90 },
+        "scheduling_coordination": { "low": 0.50, "high": 0.80 },
+        "customer_communication": { "low": 0.40, "high": 0.70 },
+        "decision_support": { "low": 0.30, "high": 0.60 },
+        "research_analysis": { "low": 0.25, "high": 0.50 },
+        "creative_strategy": { "low": 0.10, "high": 0.30 }
+      },
+      "blended_cost_multipliers": {
+        "admin_support": { "multiplier": 1.3, "note": "$40K salary = ~$25/hr blended" },
+        "specialist_coordinator": { "multiplier": 1.35, "note": "$55K salary = ~$36/hr blended" },
+        "manager_lead": { "multiplier": 1.4, "note": "$75K salary = ~$51/hr blended" },
+        "owner_executive": { "multiplier": 2.0, "note": "Value at opportunity cost, not drawn salary" }
+      },
+      "owner_time_rule": "If the owner could close one more deal per month worth $5,000 by freeing up 10 hours, their effective rate is $500/hr for those tasks, not their salary."
+    }
+  },
+
+  "score_sheet_spec": {
+    "description": "The SCORE Sheet is Kingside's signature client-facing deliverable. Produced during Study and Configure. Designed to be read by a business owner in under 10 minutes.",
+    "naming": "Named for the chess term. A score sheet records every move in a game. Ours records every move in the client's AI strategy.",
+    "page_structure": {
+      "page_1_cover": "Branded cover with Kingside logo, client name/logo, date, engagement type. Confidential label.",
+      "page_2_snapshot": "Narrative summary of the business and Study findings. Client pull quote. Three headline metrics: total estimated impact, total time currently lost, number of opportunities identified.",
+      "page_3_opportunities": "Table of every opportunity with columns: name, source (Money/Time/Pain), WAT type, impact, complexity, priority phase. Legend for source and WAT color coding.",
+      "page_4_roadmap": "Phased implementation plan. Each initiative: plain-language description, success metric, timeline, what's needed from the client. Color-coded by phase.",
+      "page_5_math": "Three headline numbers: annual impact, annual investment, projected ROI. Line-by-line breakdown showing how every dollar was calculated. Conservative estimates noted.",
+      "page_6_next_step": "Recommended service tier with comparison table. 30-day launch plan. Signature lines."
+    },
+    "design_principles": [
+      "Clean and minimal. One accent color, lots of white space. Every page has one primary visual element.",
+      "Business language only. No technical jargon. The client doesn't need to know the stack.",
+      "Every number traces to discovery. Nothing in The Math should surprise the client.",
+      "Conservative projections. Round down. Use the lower bound. Beat expectations, don't miss them.",
+      "4-6 pages max. Scannable in 10 minutes."
+    ],
+    "strategic_value": [
+      "Demonstrates competence before anything is built.",
+      "Gives the client something tangible even if they don't move forward.",
+      "Becomes the reference document for the entire engagement.",
+      "Standardizes the sales process across every client.",
+      "Forces thorough Study. If you can't fill out a SCORE Sheet, you didn't Study well enough."
+    ]
+  },
+
+  "service_tiers": {
+    "description": "Four standardized monthly engagement levels. The SCORE Sheet naturally recommends the appropriate tier based on Study findings.",
+    "tiers": {
+      "foundation": { "label": "Foundation", "focus": "Core workflows and basic automations" },
+      "operations": { "label": "Operations", "focus": "Full WAT implementation with AI agents and managed orchestration" },
+      "scale": { "label": "Scale", "focus": "Advanced agents, integrations, and strategic advisory" },
+      "enterprise": { "label": "Enterprise", "focus": "Full fractional CAO engagement with custom solutions" }
+    }
+  },
+
+  "visual_identity": {
+    "colors": {
+      "electric_blue": "#20A4F3",
+      "carbon": "#111111",
+      "deep_teal": "#0E7490",
+      "slate": "#71717A",
+      "platinum": "#E4E4E7",
+      "background": "#FFFFFF"
+    },
+    "typography": {
+      "display": { "font": "Poppins", "weight": "700", "fallback": "Arial" },
+      "body": { "font": "Raleway", "weight": "400", "fallback": "Verdana", "line_height": "1.6" }
+    },
+    "iconography": {
+      "library": "Lucide React",
+      "stroke_weight": "1.5px",
+      "corner_radius": "4px rounded",
+      "style": "Outline only. No fill."
+    },
+    "imagery": {
+      "photography": {
+        "do": ["Natural window light, high contrast", "People at work with screens visible", "Real environments, honest moments", "Neutral or dark editorial backgrounds"],
+        "dont": ["Stock handshakes or group high-fives", "Blue glowing 'AI brain' imagery", "Overly polished lifestyle photography"]
+      },
+      "illustration": {
+        "do": ["Minimal, geometric, precise", "Monochrome or 2-color max", "Used sparingly for diagrams only", "Line weight matches icon system"],
+        "dont": ["Character-based or mascot illustration", "Decorative or purely ornamental", "Mixed illustration styles"]
+      },
+      "graphic_elements": {
+        "do": ["Ruled lines and dividers in Platinum", "Sparse geometric accents in Electric Blue", "Consistent border-radius of 10-14px", "Grid-aligned layouts only"],
+        "dont": ["Decorative swooshes or organic shapes", "Gradients beyond brand-approved two-stops", "Pattern fills or textures"]
+      },
+      "ai_generated": {
+        "aesthetic": "Swiss collage style illustration: [SUBJECT] in high-contrast B&W, cutout with hard edges, risograph halftone grain texture across the figure, floating on a transparent or black background. A #20A4F3 blue offset shadow/silhouette sits behind the figure, slightly shifted to create depth. Matte finish, grainy.",
+        "alt_text": "Mandatory for all generated images (WCAG 2.1 compliance)."
+      }
+    }
+  },
+
+  "quality_checks": {
+    "fast_check": {
+      "description": "Runs on all output.",
+      "checks": [
+        "No banned words or phrases from the forbidden lexicon.",
+        "No em dashes in body copy.",
+        "No semicolons.",
+        "No self-answered rhetorical questions."
+      ]
+    },
+    "full_editorial_check": {
+      "description": "Runs on long-form and client-facing deliverables only.",
+      "checks": [
+        "First sentence earns the second sentence.",
+        "Every paragraph serves exactly one idea.",
+        "Cadence matches content type (1-2-1 for short-form, natural variation for long-form).",
+        "Tone reads as warm and colloquial, not polished-corporate.",
+        "No markdown formatting unless platform-required.",
+        "All unverifiable claims flagged in notes field."
+      ]
+    }
+  }
+}

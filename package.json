@@ -1,0 +1,24 @@
+{
+  "name": "pac-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "dev": "tsx watch src/main.ts",
+    "pipeline": "tsx src/main.ts --once"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.0",
+    "@openrouter/ai-sdk-provider": "^0.4.0",
+    "@supabase/supabase-js": "^2.99.1",
+    "ai": "^4.0.0",
+    "dotenv": "^16.4.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
