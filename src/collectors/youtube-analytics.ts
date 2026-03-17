@@ -6,7 +6,7 @@ import {
 import type { RawSignalInput, YouTubeVideoResult } from "../types";
 
 const POLL_INTERVAL_MS = 5_000;
-const MAX_POLL_DURATION_MS = 5 * 60 * 1_000; // 5 minutes
+const MAX_POLL_DURATION_MS = 15 * 60 * 1_000; // 15 minutes
 
 interface ApifyRunResponse {
   data: {
@@ -71,7 +71,7 @@ export async function collectYouTubeAnalytics(): Promise<RawSignalInput[]> {
 
     while (status !== "SUCCEEDED" && status !== "FAILED" && status !== "ABORTED") {
       if (Date.now() - startTime > MAX_POLL_DURATION_MS) {
-        console.error("[youtube-analytics] Actor run timed out after 5 minutes");
+        console.error("[youtube-analytics] Actor run timed out after 15 minutes");
         return [];
       }
 

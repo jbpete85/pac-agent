@@ -11,6 +11,6 @@ export function getModel(model?: string) {
   return openrouter(
     model ??
       process.env.OPENROUTER_DEFAULT_MODEL ??
-      "anthropic/claude-sonnet-4-20250514"
+      "anthropic/claude-sonnet-4"
   );
 }
